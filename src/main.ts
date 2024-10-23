@@ -1,5 +1,11 @@
 import { createApp } from 'vue'
-import './style.css'
 import App from './App.vue'
+//@ts-ignore некорректный экспорта типов в package.json модуля
+import { setupCalendar, DatePicker } from 'v-calendar'
+import 'v-calendar/style.css'
+import './style.css'
 
-createApp(App).mount('#app')
+createApp(App)
+  .use(setupCalendar, {})
+  .component('VDatePicker', DatePicker)
+  .mount('#app')

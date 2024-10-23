@@ -1,5 +1,31 @@
-# Vue 3 + TypeScript + Vite
+# Погодное приложение
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Пример погодного приложения, Vue 3 + TypeScript + Vite SPA-приложение.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+В качестве АПИ используется [Weather Forecast API](https://open-meteo.com/en/docs#hourly=temperature_2m,precipitation_probability,precipitation,cloud_cover).
+
+Структура приложения [vite](https://vite.dev/guide/#scaffolding-your-first-vite-project).
+
+Библиотека датапикера [v-calendar](https://vcalendar.io/getting-started/installation.html).
+
+Библиотека графиков [chart.js](https://www.chartjs.org/docs/latest/getting-started/installation.html).
+
+Ссылка на пример https://weather-app-nine-murex-87.vercel.app/.
+
+## Установка
+
+```bash
+npm install
+```
+
+## Разработка
+
+```bash
+npm run dev
+```
+
+## Сборка
+
+```bash
+npm run build
+```
